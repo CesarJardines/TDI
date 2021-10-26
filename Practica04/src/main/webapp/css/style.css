@@ -1,0 +1,74 @@
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+/* Menú 
+https://www.w3schools.com/Css/css_navbar_horizontal.asp
+*/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Sombra para el menú*/
+li a:hover {
+  background-color: #111;
+}
+
+
+.background{
+	background-color: black;	
+}
+
+.background2{
+	background-color: #58ACFA;	
+}
+
+/* Centrar una imágen */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Galería de la página principal
+https://www.w3schools.com/Css/css_image_gallery.asp
+ */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 100%;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.blank{
+	text-decoration-color: #000000;
+}

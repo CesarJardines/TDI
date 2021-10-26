@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi página web</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<script type="text/javascript" src="../javascript/script.js"></script>
+</head>
+			 <style>
+						div {
+								box-sizing: border-box;
+								width: 100%;
+								border: 100px solid black;
+								float: left;
+								align-content: center;
+								align-items: center;
+						}
+	
+						form {
+								margin: 0 auto;
+								width: 600px;
+						}
+				</style>
+<body class="background">
+
+
+	<img src="../static/logo2019.png" class="center">
+<ul>
+	<li><a href="../index.html">Inicio</a></li>
+	<li><a href="video.html">Video</a></li>
+	<li><a href="audio.html">Audio</a></li>
+		<li><a href="formulario.html">Formulario Normal</a></li>
+	<li><a href="formularioJSP.html">Formulario JSP</a></li>
+</ul>
+<br>
+
+
+<content>
+<h1 style="text-align: center;">Registrate</h1>
+				<form name="RegForm" action="" onsubmit="return FORM()" method="post">
+						<p style="color: white; text-align: center;">Nombre: <input type="text" size="65" name="Name" /></p>
+						<br/>
+						<p style="color: white; text-align: center;">Dirección: <input type="text" size="65" name="Address" />
+					</p>
+						<br/>
+						<p style="color: white; text-align: center;">E-mail: <input type="text" size="65" name="EMail" /></p>
+						<br/>
+						<p style="color: white; text-align: center;">Contraseña: <input type="text" size="65" name="Password" /></p>
+						<br/>
+						<p style="color: white; text-align: center;">
+								Selecciona tu grupo
+								<select type="text" value="" name="Subject">
+										<option>402</option>
+										<option>415</option>
+										<option>521</option>
+										<option>509</option>
+										<option>512</option>
+								</select>
+						</p>
+						<br />
+						<br />
+						<p style="color: white; text-align: center;">Comentarios: <textarea cols="55" name="Comment"> </textarea></p>
+						<p>
+								<input type="submit" 
+											 value="send" name="Submit" />
+								<input type="reset" 
+											 value="Reset" name="Reset" />
+						</p>
+				</form>
+<h2 style="color: white; text-align: center;">Función js con array</h2>
+<p style=" text-align: center;">
+<input type = "button" onclick = "getInfo()" value = "Tocame para probar el arreglo">
+<p style="color: white; text-align: center;">----------------------------</p>
+<div style="color: white; text-align: center;" id="mydiv">
+
+</div>
+
+</p>
+<p style=" text-align: center;">
+<input type = "button" onclick = "getCarros()" value = "Tocame para probrar el for">
+</p>
+<div style="color: white; text-align: center;" id="carro" ></div>
+</content>
+
+
+
+</body>
+</html>
